@@ -1,9 +1,9 @@
-import { Router } from "express";
-import * as Controller from "./controller";
+// import { Router } from "express";
+// import * as Controller from "./controller";
 
-const testRouter = Router();
+// const testRouter = Router();
 
-testRouter.route("/").get(Controller.findAll);
-testRouter.route("/").post(Controller.create);
+// testRouter.route("/").get(Controller.findAll);
+// testRouter.route("/").post(Controller.create);
 
-export default testRouter;
+// export default testRouter;
